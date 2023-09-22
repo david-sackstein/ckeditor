@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import InlineEditor from '@ckeditor/ckeditor5-build-inline';
+import Editor from 'ckeditor5-custom-build/build/ckeditor';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,6 @@ import InlineEditor from '@ckeditor/ckeditor5-build-inline';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  editor = InlineEditor;
+  editor = Editor;
   title = 'ckeditor5-plugin-test';
 }
